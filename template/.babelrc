@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "flow",
+    [ "env", { "modules": false, "targets": { "browsers": [ "last 2 versions", "safari >= 7" ] } } ]
+  ],
+  "plugins": [
+    "external-helpers",
+    [ "transform-react-jsx", { "pragma": "h" }],
+    "transform-object-rest-spread",
+    "transform-class-properties"
+  ]
+}
